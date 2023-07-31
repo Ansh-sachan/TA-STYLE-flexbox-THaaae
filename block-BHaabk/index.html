@@ -1,0 +1,70 @@
+<!-- 
+1. Create a simple page having a header, main content, and a footer.
+
+2. Inside the header keep the brand name to the left and all the navigation to the right.
+
+4. Inside the main content take an article section having two columns. In the first column put a heading and some introductory text of the article and in the second column take an image.
+
+5. After the article section, take a gallery section, in which there will be two rows and in both the row there will be three columns. Each column must have a different image.
+
+6. After the gallery section footer will come.
+
+7. Use flexbox properties and values to create columns.
+ -->
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title> 
+     <link rel="stylesheet" href="style.css">
+ </head>
+ <body>
+     <header>
+     <div class="container flex">
+             <h1 class="logo"> AltCampus</h1>
+       
+         <nav class="nav">
+             <a  href="#">Home</a>
+             <a href="#">About</a>
+             <a href="#">Contact</a>
+         </nav>
+     </div>
+     </header>
+     <main>
+         <article class="article">
+             <div class="container flex">
+                  <div> 
+                     <h2 class="head-2"> Lorem ipsum, dolor sit amet consectetur </h2>
+                     <p class="para-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis sapiente modi quas aut. Est, corporis consequatur ad assumenda minima, quaerat sed eaque rem pariatur nostrum dignissimos optio. Quod, minima eveniet! Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim perferendis magnam itaque quae esse nostrum? Neque, sapiente quod quos qui voluptates dolorum eveniet quae facere laborum temporibus ratione expedita unde! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe nam quae, deserunt cumque commodi ut dicta voluptate ullam. Velit amet quidem minus cumque officia quisquam facere, provident dicta at hic! Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro beatae voluptate, veritatis ex eaque, vel tempora distinctio aperiam, magni sint repellendus voluptates quibusdam reprehenderit totam? Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                  </div>
+                   <figure> <img class="img" src="image1.jpeg" alt="img"></figure>
+ 
+             </div>
+         </article>
+         <section>
+             <h2 class="head-3">Gallery</h2>
+             <div  class="container flex">
+                 <figure>
+                     <img class="img-2" src="image2.jpeg" alt="img">
+                     <img  class="img-2" src="image3.jpeg" alt="img">
+                     <img  class="img-2" src="image4.jpeg" alt="img">
+                   
+                     </figure>
+                     </div>
+                     <div  class="container flex">
+               <figure>
+                 <img  class="img-2" src="image5.jpeg" alt="img">
+                 <img  class="img-2"src="image6.jpeg" alt="img">
+                 <img  class="img-2"src="image7.jpeg" alt="img">
+               </figure>
+             </div>
+             
+         </section>
+     </main>
+     <footer>
+         &copy; Allreserved 2022
+     </footer>
+ </body>
+ </html>
